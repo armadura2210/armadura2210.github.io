@@ -1,0 +1,94 @@
+body{
+
+    background: rgb(235, 236, 240);
+    
+}
+.al_aire_tv {
+    margin: 50px;
+
+    display: flex;
+    justify-content: center;
+    justify-items:center;
+    background-color: rgb(222, 222, 241);
+    border-radius: 25px ;
+    font-size: 20px;
+
+
+   
+}
+.titulocanal{
+    
+    color: rgb(170, 51, 15);
+}
+.logodetv{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+.al_aire_panamericana{
+    display: flex;
+    justify-content: center;
+}
+ .golperu{
+    background-color: blue;
+}
+ .panamericana{
+    background-color: red;
+
+}
+.titulopanamericana{
+    color: aliceblue;
+}
+.al_aire_golperu{
+    display: flex;
+    justify-content: center;
+}
+.titulogolperu{
+    color: aliceblue;
+}
+.al_aire_atv{
+    display: flex;
+    justify-content: center;
+}
+.tituloatv{
+    color: rgb(77, 35, 190);
+}
+.atv{
+    background: white;
+}
+.al_aire_america{
+    display: flex;
+    justify-content: center;
+}
+.america{
+    background: rgb(253, 80, 37);
+}
+.tituloamerica{
+    color: white;
+}
+.contenedor_principal{
+    display: flex;
+    gap: 20px;
+}
+.contenedor_canales{
+    width: 70%;
+}
+.contenedor_canales a{
+    padding: 5px;
+    
+}
+.contenedor_programacion{
+    background-color: rgb(9, 104, 9);
+    
+    
+    width: 30%;
+    height: auto;
+    
+}
+.contenedor_programacion .textos{
+    padding: 5px;
+    color: azure;
+}
+h1{
+    text-align: center;
+}

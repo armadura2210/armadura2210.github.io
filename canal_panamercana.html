@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset=utf-8 />
+    <title>En vivo MVdigital & CinemaTV</title>
+      <link href="video-js.css" rel="stylesheet">
+      <link href="decoracion.css" rel="stylesheet">
+      <script src="video.js"></script>
+      <script src="videojs-contrib-hls.js"></script>
+       
+    </head>
+    <body class="panamericana">
+        <div class="logodetv">
+                <img src="/imagen/logo_panamericana.webp" tab="panamericana" width="240px">
+
+        </div>
+		<div class="al_aire_panamericana">
+            <h2 class="titulopanamericana">PANAMERICANA</h2>
+		 <video id="video" class="video-js" controls preload="none" crossorigin="true" >
+		   <source src="http://envivo03.webveo.tv:1935/envivoorigen/panamericana///chunklist_w2043988801.m3u8" type="application/x-mpegURL">
+		 </video>
+		</div>
+        
+    <script>
+    	var player = videojs('video');
+    	player.play();
+
+    </script>
+      
+    </body>
+    </html>

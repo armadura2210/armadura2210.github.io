@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset=utf-8 />
+    <title>MVdigital & CinemaTv</title>
+      <link href="video-js.css" rel="stylesheet">
+      <link href="decoracion.css" rel="stylesheet">
+      <script src="video.js"></script>
+      <script src="videojs-contrib-hls.js"></script>
+       
+    </head>
+    <body>
+        <body class="atv">
+            <div class="logodetv">
+                <img src="/imagen/logo_atv.png" tab="atv" width="240px">
+    
+        </div>
+		<div class="al_aire_atv">
+            <h2 class="tituloatv">ATV</h2>
+		 <video id="video" class="video-js" controls preload="none" crossorigin="true" >
+		   <source src="http://envivo03.webveo.tv:1935/envivoorigen/atv2////chunklist_w1020092014.m3u8" type="application/x-mpegURL">
+		 </video>
+		</div>
+        
+    <script>
+    	var player = videojs('video');
+    	player.play();
+
+    </script>
+      
+    </body>
+    </html>

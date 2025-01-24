@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset=utf-8 />
+    <title>MVdigital & CinemaTv</title>
+      <link href="video-js.css" rel="stylesheet">
+      <link href="decoracion.css" rel="stylesheet">
+      <script src="video.js"></script>
+      <script src="videojs-contrib-hls.js"></script>
+       
+    </head>
+    <body class="america">
+        <div class="logodetv">
+                <img src="/imagen/logo_america.jpeg" tab="LOGOAMERICA" width="240px">
+
+        </div>
+		<div class="al_aire_america">
+            <h2 class="tituloamerica">AMERICA</h2>
+		 <video id="video" class="video-js" controls preload="none" crossorigin="true" >
+		   <source src="http://envivo02.webveo.tv:1935/envivoorigen/americatv2///chunklist_w1957903692.m3u8" type="application/x-mpegURL">
+		 </video>
+		</div>
+        
+    <script>
+    	var player = videojs('video');
+    	player.play();
+
+    </script>
+      
+    </body>
+    </html>
